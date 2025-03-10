@@ -6,6 +6,7 @@ pipeline {
             steps {
                 script {
                     sh 'g++ ./main/hello.cpp -o PES1UG22AM152-1'
+                    echo "yay"
                 }
             }
         }
