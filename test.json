@@ -1,0 +1,26 @@
+{
+  "user": {
+    "id": 10234,
+    "name": "Aarav Mehta",
+    "email": "aarav.mehta@example.com",
+    "active": true,
+    "roles": ["developer", "reviewer"],
+    "profile": {
+      "age": 29,
+      "country": "India",
+      "interests": ["AI", "data engineering", "gaming"]
+    }
+  },
+  "project": {
+    "name": "AI Code Reviewer",
+    "repo": "github.com/org/ai-reviewer",
+    "language": "Python",
+    "status": "in-progress",
+    "milestones": [
+      {"name": "MVP", "complete": true},
+      {"name": "LLM Integration", "complete": true},
+      {"name": "Auto Comments", "complete": false}
+    ]
+  },
+  "last_updated": "2025-06-04T10:32:00Z"
+}
